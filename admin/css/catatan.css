@@ -1,0 +1,120 @@
+body {
+    color: black;
+    background-image:url(flat,750x1000,075,f.jpg);
+}
+
+a {
+    color: black;
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: 1fr ;
+    column-gap: 4px;
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+
+div.image {
+    display: flex;
+    justify-content: center;
+}
+
+div.image img {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+div.hero {
+    margin-bottom: 15px;
+}
+
+font.hero {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+div.sub {
+    margin-bottom: 25px;
+}
+
+font.sub {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+div.cover {
+    display: grid;
+    row-gap: 55px;
+    grid-template-rows: 0.5fr 1fr;
+}
+
+div.tit {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+}
+
+div.section {
+    width: 90%;
+    border: 1px solid rgba(222, 184, 135, 0.267);
+    height: 100px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+div.section-1 {
+    display: flex;
+    width: 40%;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+
+table {
+    border-collapse: collapse;
+    color: white;
+    width: 80%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #008d599c;
+}
+
+
+table tr.isi:hover {
+    background-color: rgba(221, 221, 221, 0.082);
+}
+
+td.aksi {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+tr td.aksi button.update {
+    background-color: #14b81c;
+    border: 1px solid #14b81c ;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+tr td.aksi button.delete {
+    background-color: #940909;
+    border: 1px solid #940909 ;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+}

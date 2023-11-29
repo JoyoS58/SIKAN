@@ -1,0 +1,104 @@
+body {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, rgb(13, 33, 59), #5d5db2);
+    display: grid;
+    grid-template-rows: center;
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 4px;
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+
+div.image {
+    display: flex;
+    justify-content: center;
+}
+
+div.image img {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+div.hero {
+    margin-bottom: 15px;
+}
+
+font.hero {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+div.sub {
+    margin-bottom: 25px;
+}
+
+font.sub {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+div.cover {
+    display: center;
+    row-gap: 55px;
+    grid-template-rows: 1fr 1fr;
+}
+
+div.tit {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+}
+
+div.section-1 {
+    display: center;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: 1fr 1fr;  
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+table th {
+    background-color: #0000009c;
+}
+
+
+table tr.isi:hover {
+    background-color: rgba(221, 221, 221, 0.082);
+}
+
+td.aksi {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+tr td.aksi button.update {
+    background-color:  #141414;
+    border: 1px solid #ffffff ;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+tr td.aksi button.delete {
+    background-color: #000000;
+    border: 1px solid #ffffff ;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+}

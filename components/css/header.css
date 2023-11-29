@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: center, Helvetica, sans-serif;
+    /* background: linear-gradient(to right, #24A19C, #325288); */
+    color: white;
+}
+
+header.head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #f5ffff00;
+    height: 70px;
+}
+
+div.logo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+div.logo span {
+    color: rgb(255, 251, 0);
+    margin-left: 9px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div.login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

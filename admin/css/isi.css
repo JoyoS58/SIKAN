@@ -1,0 +1,97 @@
+body {
+    color: black;
+    background-color: rgb(242, 248, 245);
+}
+
+a {
+    color: black;
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 4px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.image {
+    display: flex;
+    justify-content: center;
+}
+
+div.image img {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+div.hero {
+    margin-bottom: 15px;
+}
+
+font.hero {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+div.sub {
+    margin-bottom: 25px;
+}
+
+font.sub {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+div.cover {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    row-gap: 45px;
+}
+
+div.tit {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+div.form {
+    display: flex;
+    border: 1px solid rgba(110, 110, 110, 0.514);
+    width: 90%;
+    box-sizing: border-box;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+form div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+form input {
+    border: 1px solid rgb(82, 82, 82);
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #d1d1d1;
+}
+
+form div.simpan {
+    justify-content: flex-end;
+    padding-right: 50px;
+}

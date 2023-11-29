@@ -1,0 +1,22 @@
+footer {
+    width: 100%;
+    background-color: #ececec;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+div.medsos {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ div.medsos a i {
+     font-size: 18px;
+ }
+
+ 
